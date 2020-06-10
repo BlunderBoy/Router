@@ -30,7 +30,7 @@ packet* socket_receive_message(int sockfd, packet *m)
 	 * interface, eg 1500 bytes 
 	 * */
 	m->len = read(sockfd, m->payload, MAX_LEN);
-	DIE(m->len == -1, "read");
+	//DIE(m->len == -1, "read");
 	return m;
 }
 
