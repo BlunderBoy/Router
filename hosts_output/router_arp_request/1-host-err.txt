@@ -1,0 +1,4 @@
+  File "./checker.py", line 38, in passive
+    status = fn(testname, packets)
+  File "/home/cristian/Desktop/temalapc/tests.py", line 212, in router_arp_request_p
+    assert len(packets) >= 1, "No packet received!"
